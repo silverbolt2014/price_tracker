@@ -7,23 +7,23 @@ public class Store {
     String name;
     String address;
     
-    Store(int id, String name, String address){
+    public Store(int id, String name, String address){
         this.id = ++Store.nextId;
     }
     
-    int getId(){
+    public int getId(){
         return id;
     }
     
-    String getName(){
+    public String getName(){
         return name;
     }
     
-    String getAddress(){
+    public String getAddress(){
         return address;
     }
     
-    static int getNextId(){
+    public static int getNextId(){
         return Store.nextId;
     }
 }
