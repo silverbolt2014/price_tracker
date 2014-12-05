@@ -1,3 +1,5 @@
+package com.github.silverbolt2014.price_tracker;
+
 /**
  * The class Store is used to create objects that can represent a store 
  */

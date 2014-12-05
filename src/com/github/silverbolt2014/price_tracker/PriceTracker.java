@@ -1,3 +1,5 @@
+package com.github.silverbolt2014.price_tracker;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
